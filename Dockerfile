@@ -1,13 +1,13 @@
 FROM Tepthonee/PPF22:alpine
 
 #clonning repo 
-RUN git clone https://github.com/venom01k/mekqee/tree/master.git /root/zthon
+RUN git clone https://github.com/RRKKKS/xxx.git /root/IqArab
 #working directory 
-WORKDIR /root/zthon
+WORKDIR /root/IqArab
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
 
-ENV PATH="/home/zthon/bin:$PATH"
+ENV PATH="/home/IqArab/bin:$PATH"
 
-CMD ["python3","-m","zthon"]
+CMD ["python3","-m","IqArab"]
