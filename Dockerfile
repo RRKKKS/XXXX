@@ -1,4 +1,4 @@
-FROM Tepthonee/PPF22:alpine
+FROM RRKKKS/xxx:alpine
 
 #clonning repo 
 RUN git clone https://github.com/RRKKKS/xxx.git /root/IqArab
